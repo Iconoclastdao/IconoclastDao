@@ -1,4 +1,4 @@
-Donations appreciated 0xfD9Ef2054637D91a513eE699f373B6c2FAaccA85. Community embers and devs wanted. Read the information 
+Donations appreciated 0xfD9Ef2054637D91a513eE699f373B6c2FAaccA85. Community members and devs wanted. Read the information 
 
 Main Features of the DApp:
 Decentralized Governance via DAO:
