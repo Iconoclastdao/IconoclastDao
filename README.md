@@ -1,4 +1,4 @@
-Donations appreciated 0xfD9Ef2054637D91a513eE699f373B6c2FAaccA85. Community members and devs wanted. Read the information 
+Donations appreciated 0xfD9Ef2054637D91a513eE699f373B6c2FAaccA85. Community members and devs wanted. smart contracts that are built AutomatedFOIARequests.sol BlockchainRegulatedBoycotts.sol CampaignFinanceMonitor.sol CandidateSponsorship.sol CitizenLedAudits.sol CrossChainOperations.sol CryptoEconomicWarfare.sol DigitalPetition.sol GlobalCoalitionDAOs.sol GovernanceToken.sol IconoclastDAO.sol LegalTaxChallenges.sol MediaAccountability.sol ParticipatoryBudgeting.sol StartupDonationFund.sol TimelockController.sol.. deployable need serious devs that understand its possible. Read the information 
 
 Main Features of the DApp:
 Decentralized Governance via DAO:
