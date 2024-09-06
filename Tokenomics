@@ -24,3 +24,59 @@ Ongoing Funding:
 
 Development Grants: The creator can submit proposals to the DAO for additional funding as needed. These proposals will be subject to community voting.
 Performance-Based Rewards: The creator can be rewarded based on the performance and milestones achieved. This can be done through periodic proposals and community votes.
+
+Funding Mechanism for the Creator
+Initial Funding Proposal:
+
+The creator can submit a proposal to the DAO to allocate a portion of the Treasury and Reserves to themselves for development and operational costs.
+Example Proposal:
+function proposeInitialFunding(address creator, uint256 amount) external onlyRole(ADMIN_ROLE) {
+    address[] memory targets = new address[](1);
+    targets[0] = creator;
+    
+    uint256[] memory values = new uint256[](1);
+    values[0] = amount;
+    
+    bytes[] memory calldatas = new bytes[](1);
+    calldatas[0] = "";
+
+    string memory description = "Initial funding for the creator";
+    
+    propose(targets, values, calldatas, description);
+}
+Ongoing Funding Proposals:
+
+The creator can submit periodic proposals to the DAO for additional funding as needed.
+Example Proposal:
+function proposeAdditionalFunding(address creator, uint256 amount) external onlyRole(ADMIN_ROLE) {
+    address[] memory targets = new address[](1);
+    targets[0] = creator;
+    
+    uint256[] memory values = new uint256[](1);
+    values[0] = amount;
+    
+    bytes[] memory calldatas = new bytes[](1);
+    calldatas[0] = "";
+
+    string memory description = "Additional funding for the creator";
+    
+    propose(targets, values, calldatas, description);
+}
+Performance-Based Rewards:
+
+The creator can be rewarded based on the performance and milestones achieved. This can be done through periodic proposals and community votes.
+Example Proposal:
+function proposePerformanceReward(address creator, uint256 amount, string memory milestone) external onlyRole(ADMIN_ROLE) {
+    address[] memory targets = new address[](1);
+    targets[0] = creator;
+    
+    uint256[] memory values = new uint256[](1);
+    values[0] = amount;
+    
+    bytes[] memory calldatas = new bytes[](1);
+    calldatas[0] = "";
+
+    string memory description = string(abi.encodePacked("Performance reward for achieving milestone: ", milestone));
+    
+    propose(targets, values, calldatas, description);
+}
